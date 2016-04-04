@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* шрифты */
+@font-face{
+    font-family: SFUIDisplay; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayMed; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Medium.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplaySemibold; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Semibold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayThin; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Thin.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayHeavy; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Heavy.otf); /* Путь к файлу со шрифтом */
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.container, .row{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+/*СЛАЙДЕР НАШИХ ПРОЕКТОВ ГЛАВНЫЙ*/
+.sliderForProject{
+	position: relative;
+}
+.sliderForProject .nameGaleryProject{
+	font-family: SFUIDisplay, sans-serif;
+	font-size: 225%;
+	color: #2a3d42;
+	margin-left: 30px;
+	margin-bottom: 1%;
+	position: relative;
+}
+.sliderForProject .nameSlideProgect{
+	font-family: SFUIDisplay, sans-serif;
+	font-size: 55.5%;
+	color: #2a3d42;
+    position: absolute;
+	bottom: 7%;
+	left: 35%;
+}
+.contentSliderProject .bgImg{
+	width: 100%;
+}
+.contentSliderProject{
+	position: relative;
+}
+/*СЛАЙДЕР НАШИХ ВТОРОСТИПЕННЫЙ ГЛАВНЫЙ*/
+.bgSlider{
+	background: url(../img/bgSliderInSlider.jpg) no-repeat center center;
+	background-size: contain;
+	background-size: cover;
+}
+.bxsliderProjectClass{
+	margin-top: 10%;
+}
+.bxsliderProjectClass .bxsliderProject li img{
+	margin: 0 auto;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.bxsliderProjectClass{
+		margin-top: 15%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.bxsliderProjectClass{
+		margin-top: 15%;
+	}
+	.sliderForProject .nameGaleryProject{
+		font-size: 130%;
+		margin-left: 2%;
+	}
+	.sliderForProject .nameSlideProgect {
+	    font-size: 75.5%;
+	    padding-right: 2%;
+	}
+}
+@media screen and (max-width: 479px){
+	.bxsliderProjectClass{
+		margin-top: 15%;
+	}
+	.sliderForProject .nameGaleryProject{
+		font-size: 130%;
+		margin-left: 2%;
+		padding-bottom: 13%;
+	    padding-top: 2%;
+	}
+	.sliderForProject .nameSlideProgect {
+	    font-size: 60.5%;
+	    padding-right: 2%;
+	    left: 0%;
+	}
+}
+@media screen and (min-width: 370px) and (max-width: 479px){
+	.sliderForProject .nameGaleryProject{
+		padding-bottom: 8%;
+	}
+}

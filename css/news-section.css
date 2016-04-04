@@ -1,0 +1,430 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* шрифты */
+@font-face{
+    font-family: SFUIDisplay; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayMed; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Medium.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplaySemibold; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Semibold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayThin; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Thin.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayHeavy; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Heavy.otf); /* Путь к файлу со шрифтом */
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.container, .row{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+/* оформление новостной ленты */
+#newsSect{
+	overflow: hidden;
+}
+#leftBlockNews{
+	padding: 0;
+	min-height: 555px;
+	background-color: #2a3d42;
+	position: relative;
+}
+#rightBlockNews{
+	padding: 0;
+	min-height: 555px;
+	background: url(../img/newsBackgroundRight.jpg) no-repeat;
+	background-size: contain;
+	background-size: cover;
+	position: relative;
+}
+.blockOpacity{
+	background-color: rgba(255,255,255, 0.89);
+	width: 100%;
+	min-height: 555px;
+}
+/* стили правого блока, новостной ленты */
+#newsSect .img{
+	width: 80%;
+	height: auto;
+	margin-top: 5%;
+}
+#newProject{
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#newProject .excl{
+	float: left;
+	margin-right: 1%;
+}
+#newProject .exclText{
+	font-family: SFUIDisplaySemibold, sans-serif;
+	font-size: 450%;
+	color: #ec434e;
+}
+#newProject .textNewProgect{
+	float: left;
+}
+#newProject .newText{
+	font-family: SFUIDisplayThin, sans-serif;
+	font-size: 300%;
+	display: table;
+}
+#newProject .projectText{
+	font-family: SFUIDisplayHeavy, sans-serif;
+	font-size: 116,6666666666667%;
+}
+#leftBlockNews .lineElips{
+	position: absolute;
+	right: 0;
+}
+#textForProgect{
+	color: white;
+	font-family: SFUIDisplay, sans-serif;
+	font-size: 150%;
+	margin: 10% 5% 7% 5%; 
+}
+/* стили левого блока, новостной ленты */
+/* новостной слайдер */
+#rightBlockNews .news{
+	overflow: hidden;
+}
+#rightBlockNews .date .timeIco{
+	display: block;
+	width: 23px;
+	height: 19px;
+	background: url(../img/time.png) no-repeat left center;
+	background-size: contain;
+	float: left;
+	margin-right: 6px;
+}
+#rightBlockNews .date .textDate{
+	font-family: SFUIDisplaySemibold, sans-serif;
+	font-size: 120%;
+	float: left;
+}
+#rightBlockNews .date .textDate .monthNew{
+	font-size: 70%;
+}
+#rightBlockNews .nameNew{
+	margin-bottom: 4px;
+}
+#rightBlockNews .nameNew pre{
+	font-family: Segoe UI, sans-serif;
+	font-style: italic;
+	color: #ec5963;
+	background-color: transparent;
+	font-size: 63%;
+}
+/* картинки новостей */
+#rightBlockNews .imgNew{
+	position: relative;
+	margin-bottom: 12px;
+}
+#rightBlockNews .imgNew .img{
+	width: 165px;
+	height: 125px;
+	float: left;
+	margin-top: 0;
+	position: relative;
+	overflow: hidden;
+}
+#rightBlockNews .imgNew .img img{
+	width: 165px;
+	height: 125px;
+	max-width: 165px;
+	max-height: 125px;
+}
+#rightBlockNews .imgNew .transpBlock{
+	position: absolute;
+	top: 0;
+	left: 77px;
+	width: 165px;
+	height: 125px;
+	overflow: hidden;
+	background-color: rgba(255,255,255, 0.6);
+}
+#rightBlockNews .imgNew .textOnImg{
+	position: absolute;
+	top: 0;
+	left: 77px;
+	width: 165px;
+	height: 125px;
+	padding: 10px;
+	font-size: 70%;
+	color: black;
+	word-break: break-all;
+}
+#rightBlockNews .imgNew .textOnImg div{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#rightBlockNews .button .buttonNext{
+	font-family: SFUIDisplayMed, sans-serif;
+	font-size: 65%;  
+	border-radius: 4px;    
+	padding: 2.5px 8px; 
+	color: white;
+	letter-spacing: 0.8px;
+	background-color: #ec434e; 
+}
+
+#rightBlockNews .bxsliderNews .col-md-12{
+	margin: 6% 0 3% 0;
+}
+/* фото слайдер */
+#rightBlockNews .photoGallery .nameGalery{
+	font-family: SFUIDisplayMed, sans-serif;
+	font-size: 150%;
+	color: #848b8c;
+	margin-bottom: 1%;
+	margin-left: 30px;
+}
+#rightBlockNews .mainContainer .col-sm-4,
+#rightBlockNews .mainContainer .col-sm-8,
+#rightBlockNews .mainContainer .col-sm-12{
+	padding: 0;
+}
+#rightBlockNews .mainContainer {
+	display: table;
+}
+#rightBlockNews .mainContainer .mainPhoto{
+	max-width: 250px;
+	max-height: 200px;
+	float: left;
+	position: relative;
+}
+#rightBlockNews .mainContainer .mainPhoto img{
+	max-width: 300px;
+	max-height: 200px;
+}
+.plus{
+	width: 64px;
+	height: 64px;
+	background: url(../img/plus.png) no-repeat center center;
+	position: absolute;
+	left: 48%;
+	top: 30%;
+	color: white;	
+}
+.link{
+	font-family: SFUIDisplaySemibold, sans-serif;
+	font-size: 90%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	transition: 2s;
+	height: 2em;
+	line-height: 2em;
+	color: #ec434e;
+	background: rgba(255,255,255,.6);
+	width: 107%;
+	display: none;
+}
+
+#rightBlockNews .mainContainer .otherPhotoAll{
+	float: left;
+}
+#rightBlockNews .mainContainer .smallPhoto{
+	float: left;
+}
+#rightBlockNews .mainContainer .smallPhoto{
+	background: url(../img/smallPhotoGalery.png) no-repeat center center;
+	background-size: contain;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#rightBlockNews .photoGallery .nameGalery{
+		font-size: 125%;
+	}
+}
+@media screen and (max-width: 991px){
+	#leftBlockNews{
+		display: table;
+		height: 0;	
+		min-height: 0;
+		width: 100%;
+		position: relative;
+	}
+	#newProject .excl {
+     margin-right: 0;
+	}
+	#newsSect .img{
+		width: 50%;
+		margin-top: 2%;
+		display: block;
+		float: left;
+	}
+	#newProject{
+		float: left;
+		margin-top: 10%;
+		margin-left: 10%;
+	}
+	#leftBlockNews .lineElips{
+		top: 50%;
+	}
+	#textForProgect{
+		float: left;
+		margin-top: 3%;
+	}
+	#rightBlockNews .mainContainer{
+		margin: 0;
+	}
+	#rightBlockNews .sunContainer .nameGalery{
+		margin: 0
+	}
+	#rightBlockNews .sunContainer{
+		display: table !important; 
+	}
+	.bx-viewport{
+		height: 100%;
+	}
+	.bxsliderPhoto .col-md-12, .bxsliderPhoto .col-md-12 .col-md-5{
+		padding: 0;
+	}
+	#rightBlockNews .photoGallery .nameGalery{
+		margin-left: 0;
+		margin: 0 auto;
+		margin-bottom: 1%;
+	}
+	#rightBlockNews .mainContainer{
+		margin: 0 auto;
+	}
+	#rightBlockNews .bxsliderPhoto .col-md-7{
+		padding-right: 0;
+	}
+	#rightBlockNews .photoGallery{
+		margin-top: 5%;
+	}
+	#rightBlockNews .blockOpacity{
+		padding-bottom: 5%;
+	}
+	.link{
+		display: block;
+	}
+	.plus{
+		left: 40%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#rightBlockNews .allContent{
+		display: table;
+		margin: 0 auto;
+	}
+	#rightBlockNews .bxsliderNews .col-md-12{
+		padding-left: 0px;	
+	}
+	.bx-wrapper .bx-prev {
+	    left: 67%;
+	}
+	.bx-wrapper .bx-next {
+	    right: 23%;
+	}
+}
+@media screen and (max-width: 767px){
+	#rightBlockNews .contentNews{
+		position: relative;
+		display: table;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#rightBlockNews .button{
+		text-align: center;
+	}
+	.col-sm-6:first-child{
+		margin-bottom: 4% !important;
+	}
+	.bx-wrapper .bx-prev {
+	    left: 70%;
+	}
+	.bx-wrapper .bx-next {
+	    right: 15%;
+	}
+}
+@media only screen and (max-width: 620px){
+	#leftBlockNews .lineElips{
+		display: none;
+	}
+	#newsSect .img{
+		width: 90%;
+		height: auto;
+		float: none;
+		margin: 2% auto;
+	}
+	#newProject{
+		margin-top: 0;
+	}
+	.news .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	    left: 0;
+	}
+	.bxsliderNews .col-md-12{
+		margin-top: 10% !important;
+	}
+	#rightBlockNews .bxsliderPhoto .otherPhotoAll{
+		display: none;	
+	}
+	#rightBlockNews .mainContainer .mainPhoto{
+		max-width: 300px; 
+	}
+	#rightBlockNews .nameGalery{
+		text-align: center;
+	}
+	#rightBlockNews .photoGallery .nameGalery {
+	    font-size: 130%;
+	    margin-bottom: 2%;
+	}
+	.plus{
+		left: 39%;
+	}
+	.link{
+		width: 100%;
+	}
+	.bx-wrapper .bx-prev {
+	    left: 4%;
+	}
+	.bx-wrapper .bx-next {
+	    right: 5%;
+	}
+}
+
+
+
+

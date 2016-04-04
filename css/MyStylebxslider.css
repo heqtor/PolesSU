@@ -1,0 +1,263 @@
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	
+	left: -5px;
+	background: transparent; 
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+/*ИЗМЕНЕНИЯ СВОЙСТВ СТАНДАРТНОГО СЛАЙДЕРА ПОД СЛАЙДЕР нОВОСТНОЙ ЛЕНТЫ*/
+.news .bx-wrapper .bx-pager.bx-default-pager a {
+	text-indent: -9999px;
+	display: block; 
+	width: 34px;
+	height: 34px;
+	background: url(../img/circle2.png) no-repeat center center;
+	margin: 0;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+.news .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.news .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: url(../img/circleActive.png) no-repeat center center;
+}
+
+.news .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 100%;
+    padding: 0;
+    display: table;
+}
+.news .bx-pager{
+	background: url(../img/linePoint.png) no-repeat center center;
+	position: relative;
+}
+.news .bx-wrapper{
+	margin-top: 2%;
+	margin-bottom: 0;
+}
+/*ИЗМЕНЕНИЯ СВОЙСТВ СТАНДАРТНОГО СЛАЙДЕРА ПОД СЛАЙДЕР ФОТОГАЛЕРЕИИ*/
+.photoGallery .bx-wrapper .bx-prev:hover {
+	opacity: 1;
+}
+.photoGallery .bx-wrapper .bx-next:hover {
+	opacity: 1;
+	background-position: right 0;
+}
+.photoGallery .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: -26px;
+    margin-top: 0;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.photoGallery .bx-wrapper .bx-prev {
+    left: 47%;
+    opacity: 0.5;
+    background: url(../img/str.png) no-repeat 0 0;
+}
+.photoGallery .bx-wrapper .bx-next {
+    right: 45%;
+    opacity: 0.5;
+    background: url(../img/str.png) no-repeat right 0;
+}
+
+@media screen and (max-width: 992px){
+	.photoGallery .bx-viewport{
+		height: 100%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.photoGallery .bx-wrapper .bx-prev {
+	    left: 67%;
+	}
+	.photoGallery .bx-wrapper .bx-next {
+	    right: 23%;
+	}
+}
+@media screen and (max-width: 767px){
+	.photoGallery .bx-wrapper .bx-prev {
+	    left: 70%;
+	}
+	.photoGallery .bx-wrapper .bx-next {
+	    right: 15%;
+	}
+}
+@media screen and (max-width: 620px){
+	.photoGallery .bx-wrapper .bx-prev {
+	    left: 4%;
+	}
+	.photoGallery .bx-wrapper .bx-next {
+	    right: 5%;
+	}
+}
+
+/*ИЗМЕНЕНИЯ СВОЙСТВ СЛАЙДЕРА В СЛАЙДЕРЕ */
+/*СТИЛИ КОНТРОЛЛЕРОВ*/
+.sliderForProject .bx-wrapper .bx-controls-direction a {
+    width: 25px;
+    height: 26px;
+    top: -4%;
+}
+.sliderForProject .bx-wrapper .bx-prev {
+    left: 20%;
+    opacity: 0.5;
+    background: url(../img/toogleMainSliderProject.png) no-repeat 5px 2px;
+}
+.sliderForProject .bx-wrapper .bx-next {
+    right: 70%;
+    opacity: 0.5;
+    background: url(../img/toogleMainSliderProject.png) no-repeat -13px 2px;
+}
+.sliderForProject .bx-wrapper .bx-prev:hover {
+	opacity: 1;
+}
+.sliderForProject .bx-wrapper .bx-next:hover {
+	opacity: 1;
+}
+.sliderForProject .contentSliderProject > .bx-wrapper{
+	position: absolute;
+	top: 0;
+}
+/*ДОЧЕРНИЙ СЛАЙДЕР*/
+/*СТИЛИ КОНТРОЛЛЕРОВ*/
+.bxsliderProjectClass .bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../img/SuntoogleSliderProject.png) no-repeat left 0;
+}
+
+.bxsliderProjectClass .bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/SuntoogleSliderProject.png) no-repeat right 0;
+}
+
+.bxsliderProjectClass .bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bxsliderProjectClass .bx-wrapper .bx-next:hover {
+	background-position: right 0;
+}
+
+.bxsliderProjectClass .bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 59px;
+	height: 59px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+	/*сТИЛИ ДЛЯ ПЕЙДЖЕРОВ*/
+.bxsliderProjectClass .bx-wrapper .bx-pager.bx-default-pager a {
+	text-indent: -9999px;
+	display: block; 
+	width: 23px;
+	height: 23px;
+	background: url(../img/circlePointSliderProject.png) no-repeat -1px 0;
+	margin: 0;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+}
+.bxsliderProjectClass .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bxsliderProjectClass .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: url(../img/circlePointSliderProject.png) no-repeat -27px 0;
+}
+.bxsliderProjectClass .bx-wrapper .bx-pager {
+    padding-top: 0;
+    bottom: -30%;
+}
+.bxsliderProjectClass .bx-pager-item{
+    margin-left: 1%;
+}
+.bxsliderProjectClass .bx-pager-item:first-child{
+    margin-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.sliderForProject .bx-wrapper .bx-prev {
+	    left: 25%;
+	}
+	.sliderForProject .bx-wrapper .bx-next {
+	    right: 65%;
+	}
+	.bxsliderProjectClass .bx-wrapper .bx-prev {
+		left: 10px;
+	}
+	.bxsliderProjectClass .bx-wrapper .bx-next {
+		right: 10px;
+	}
+	.sliderForProject .bx-wrapper .bx-controls-direction a {
+	    top: -3%;
+	}
+	.sliderForProject .bxsliderProjectClass .bx-wrapper .bx-controls-direction a {
+	    top: 50%;
+	}
+	
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.sliderForProject .bx-wrapper .bx-controls-direction a {
+	    top: -3%;
+	}
+	.sliderForProject .bxsliderProjectClass .bx-wrapper .bx-controls-direction a {
+	    top: 50%;
+	}
+	.sliderForProject .bx-wrapper .bx-prev {
+	    left: 21%;
+	}
+	.sliderForProject .bx-wrapper .bx-next {
+	    right: 65%;
+	}
+	.bxsliderProjectClass .bx-wrapper .bx-prev {
+		left: 1%;
+	}
+	.bxsliderProjectClass .bx-wrapper .bx-next {
+		right: 1%;
+	}
+}
+@media screen and (min-width: 370px) and (max-width: 479px){
+	.sliderForProject .bx-wrapper .bx-controls-direction a {
+	    top: -6%; 
+	}
+	.sliderForProject .bx-wrapper .bx-prev {
+	    left: 65%;
+	}
+	.sliderForProject .bx-wrapper .bx-next {
+	    right: 10%;
+	}
+	.bxsliderProjectClass .bx-controls-direction{
+		display: none;
+	}
+}
+@media screen and (max-width: 369px){
+	.sliderForProject .bx-wrapper .bx-controls-direction a {
+	    top: -7%; 
+	}
+	.sliderForProject .bx-wrapper .bx-prev {
+	    left: 65%;
+	}
+	.sliderForProject .bx-wrapper .bx-next {
+	    right: 10%;
+	}
+	.bxsliderProjectClass .bx-controls-direction{
+		display: none;
+	}
+}
