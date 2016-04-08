@@ -1,0 +1,159 @@
+/* шрифты */
+@font-face{
+    font-family: SFUIDisplay; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayMed; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Medium.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplaySemibold; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Semibold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayThin; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Thin.otf); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: SFUIDisplayHeavy; /* Гарнитура шрифта */
+    src: url(../fonts/SFUIDisplay-Heavy.otf); /* Путь к файлу со шрифтом */
+}
+
+#consistLab .nameBlock{
+  position: relative;
+}
+#consistLab .nameBlock img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+#consistLab .pointToogle{
+	position: relative;
+	margin-top: 2.4%;
+	margin-bottom: 1%;
+}
+#consistLab .pointToogle .pointConsist{
+	position: absolute;
+	top: -18%;
+	height: 28px;
+	width: 28px;
+	background: url(../img/circlePointConsist.png) no-repeat 50% 50%;
+	display: block;
+}
+#consistLab .pointToogle .lineСonsist{
+  	width: 100%;
+  	max-width: 100%;
+}
+.pointChoiceActive{
+	transition: 0.3s;
+	background: url(../img/circlePointConsistActive.png) no-repeat 50% 50% !important;
+}
+.pointChoiceDefault{
+	transition: 0.3s;
+	background: url(../img/circlePointConsist.png) no-repeat 50% 50% !important;
+}
+#consistLab{
+	padding: 5% 0;
+	padding-bottom: 6%;
+}
+#consistLab .sliderConsistLab{
+	margin-top: 3%;
+}
+#consistLab .txtNameConsist{
+	font-family: SFUIDisplay, sans-serif;
+	font-size: 187.5%;
+	text-transform: uppercase;
+	color: #2a3d42;
+	position: relative;
+	background-color: #fff; 
+	margin-left: 20%;
+	padding: 0 1%;
+	z-index: 99;
+}
+#consistLab .photoConsistLab{
+	opacity: 0.7;
+}
+#consistLab .photoConsistLab img{
+	margin: 0 auto;
+}
+
+#consistLab .infoAboutUser{
+	text-align: center;
+	position: absolute;
+	left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 8%;
+    color: #fff;
+    display: none;
+}
+#consistLab .infoAboutUser .nameUser{
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 134.5%;
+	font-weight: bold;
+}
+#consistLab .infoAboutUser .spetialUser{
+	font-family: 'Chaparral Pro', serif;
+	font-size: 120.5%;
+	font-style: italic;
+}
+
+#consistLab .infoAboutUser .mail{
+	display: block;
+	width: 45px;
+	height: 34px;
+	background: url(../img/mailOnTextAboutConsist.png) no-repeat center center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+#consistLab .infoAboutUser .lineSeparator{
+	display: block;
+	width: 86px;
+	height: 1px;
+	background: url(../img/lineOnTextAboutConsist.jpg) no-repeat center center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	margin: 3% auto;
+}
+.infoAboutUserVisualOff{
+	display: none !important;
+}
+.infoAboutUserVisualOn{
+	display: block !important;
+}
+
+@media only screen and (max-width: 767px){
+	#consistLab .photoConsistLab:nth-child(1),
+	#consistLab .photoConsistLab:nth-child(2){
+		margin-bottom: 5%;
+	}
+	#consistLab .pointToogle{
+		display: none;
+	}
+	#consistLab .infoAboutUser{
+	    display: block;
+	    padding-bottom: 14%; 
+	}
+	#consistLab .photoConsistLab{
+		opacity: 1;
+	}
+	#consistLab .sliderConsistLab{
+		margin-top: 6%;
+	}
+}
+@media only screen and (max-width: 420px){
+	#consistLab .infoAboutUser .nameUser{
+		font-size: 95.5%;
+	}
+	#consistLab .infoAboutUser .spetialUser{
+		font-size: 90.5%;
+	}
+}
+@media only screen and (max-width: 600px){
+	#consistLab .txtNameConsist{
+		font-size: 107.5%;
+	}
+}

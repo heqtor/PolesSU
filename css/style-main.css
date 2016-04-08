@@ -30,16 +30,10 @@ body{
     font-family: SFUIDisplayMEd; /* Гарнитура шрифта */
     src: url(../fonts/SFUIDisplay-Medium.otf); /* Путь к файлу со шрифтом */
 }
-.clearfix:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
 
 /* шапка и главные пункты меню */
-.container, .row{
+#main-container .container, 
+#main-container .row {
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -198,7 +192,7 @@ body{
 	opacity: 1;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 992px){
 	#mainMenu {
 	   	display: none;
 	}

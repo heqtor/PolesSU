@@ -1,0 +1,574 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media  screen and (max-width : 1199px) {
+	/*spesial*/
+.textTop {
+ padding: 0px 90px;
+}
+	/*sliderTo*/
+.slider {
+left: 14.7%;
+}
+.krygLeft {
+left: 315px;
+}
+.krygCenter {
+left: 475px;		
+}
+.krygRight {
+left: 615px;
+}
+.textUnderLeft {
+	left: 155px;	
+}
+.textUnderCenter {
+left: 390px;	
+}
+.textUnderRight {
+left: 625px;
+}
+.btnHovLeft , .btnHovCenter , .btnHovRight {
+left: 33%;
+}
+.krygItLeft {
+left: 31%;
+}
+.krygItCenter {
+left : 46.8%%;	
+}
+.krygItRight {
+left : 63%;	
+}  
+	/*info*/
+.OurTeam {
+margin-left: 67px;	
+}
+.OurTeam p,.OurTask p,.OurPartners p {
+font-size: 15px;	
+}
+.OurTeam p {
+padding: 0px 27px;
+margin-left: 25px;
+}
+.OurTask p {
+padding: 0 45px;	
+}
+.OurPartners p {
+padding: 0 32px;
+margin-left: 10px;		
+}
+.OurTeam span,.OurTask span ,.OurPartners span {
+font-size: 21px;
+}
+.OurTeam span {
+padding: 0 96px;	
+}
+.OurTask span {
+padding: 0 123px;
+}
+.OurPartners span {
+padding: 0 98px;	
+}
+		/*how*/
+.interestingText h1 {
+    font-size: 26px;
+}	
+.interestingText p {
+    font-size: 15px;
+}	
+	/*bxslider*/
+.howTop .bx-wrapper {
+   width: 50%!important;
+}
+	/*end*/
+	
+	/*howSite*/
+
+.borderLineSliderCite {
+	width: 680px;
+	left: 278px;
+}
+.blockqouteCite p {
+font-size: 39px;
+}
+.podpisAuthor {
+left: 667px;		
+}	
+
+	/*footerTop*/
+
+.litleMenuTop li a {
+font-size: 17px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media  screen and (max-width : 991px) {	
+	/*spesial*/
+.textTop {
+padding: 0;
+}
+.textTop p {
+	padding: 0 34px;
+}
+	/*sliderTo*/
+.slider {
+left: 6.7%;
+}	
+.sliderTo {
+padding: 0;
+}
+.krygLeft {
+left: 215px;
+}
+.krygCenter {
+left: 375px;		
+}
+.krygRight {
+left: 515px;
+}
+.textUnderLeft {
+	left: 55px;	
+}
+.textUnderCenter {
+left: 290px;	
+}
+.textUnderRight {
+left: 525px;
+}
+.btnHovLeft , .btnHovCenter , .btnHovRight {
+left: 34%;
+}
+.krygItLeft {
+left: 27%;
+}
+.krygItCenter {
+left : 48%;	
+}
+.krygItRight {
+left : 68%;	
+}
+.txtHovLeft , .txtHovCenter , .txtHovRight {
+left: 28%;
+}
+	/*info*/
+.OurTeam ,.OurTask ,.OurPartners {
+padding: 0;		
+}
+.OurTeam {
+margin-left: 27px;	
+}
+
+.OurTeam p {
+ padding: 0px 7px;
+ margin-left: 41px;
+}
+.OurTask p {
+padding: 0;
+margin-left: 42px;	
+}
+.OurPartners p {
+padding: 0 7px;
+margin-left: 35px;		
+}
+.OurTeam span,.OurTask span ,.OurPartners span {
+font-size: 20px;
+}
+.OurTeam span {
+padding: 0 93px;	
+}
+.OurTask span {
+padding: 0 106px;
+}
+.OurPartners span {
+padding: 0 98px;	
+}
+	/*how*/
+.bigMaks {
+    display: none;
+}
+.interestingText h1 {
+    font-size: 26px;
+}	
+.interestingText p {
+    font-size: 15px;
+}
+.buttonInterestingText {
+    float: none;
+}
+	/*bxslider*/
+.howTop .bx-wrapper {
+	text-align: center;
+   width: 70%!important;
+	float: none;
+}
+.howTop .bx-wrapper .bx-pager {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+	/*end*/  
+
+	/*howSite*/
+.borderLineSliderCite {
+	
+width: 100%;
+left: 0;
+}
+.bigOurTeam {
+display: none;
+}
+.interestingCite {
+top: 115px;
+}
+.blockqouteCite p {
+font-size: 37px;
+}
+.podpisAuthor {
+left: 162px;		
+}	
+	/* bx*/
+#howCite .bx-wrapper {
+	position: relative;
+	margin: 0 auto 65px;
+	padding: 0;
+	*zoom: 1;
+	width: 100%;
+	float: right;
+}
+
+/** THEME
+===================================*/
+#howCite .bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+	left: 0;
+	background: none;
+	height: 414px!important;
+}
+
+/* PAGER */
+
+
+#howCite .bx-wrapper .bx-pager {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 0;
+	position: relative;
+    top: -80px;
+	z-index: 1200;
+}
+
+/*end*/
+
+	/*footerTop*/
+.footerMenu {
+height: 340px;
+margin-bottom: 0;
+padding: 30px 90px;
+}
+.litleMenuTop li a {
+font-size: 16px;
+}
+}
+
+/* Small Devices, Tablets */
+
+@media  screen and (max-width : 767px) {
+	/*spesial*/
+.textTop p {
+padding: 0 125px;
+text-align: center;
+   }
+	/*sliderTo*/
+.sliderTo {
+border-top: 1px solid #26353a;
+height: 685px;
+padding-bottom: 10px;
+	}
+.slider {
+display: none;
+   }
+.kryg {
+display: none;
+   }
+.textUnder {
+display: none;
+	}
+.textKrygHover {
+display: block;
+top: 0;
+	}
+	.krygIt {
+display: block;
+	}
+.krygIt span, .krygIt span , .krygIt span {
+	left: -3px;	
+}
+.krygItLeft , .krygItCenter , .krygItRight {
+left: 43.5%;
+margin: 0;
+	}
+.krygItLeft {
+top: 10px;
+	}
+.krygItCenter {
+top: 235px;
+	}
+.krygItRight {
+top: 470px;
+	}
+.jqHoverLeft {
+top:50px;
+	}
+.jqHoverCenter {
+top: 275px;
+	}
+.jqHoverRight {
+top: 510px;
+	}
+.txtHovLeft , .txtHovCenter , .txtHovRight {
+left: 0;
+}
+.btnHovLeft , .btnHovCenter , .btnHovRight {
+left: 38.5%;
+}
+	/*info*/
+.infoTop {
+padding-right: 28px;
+}
+.xsText{
+display: none;
+}
+.OurTeam {
+margin-left: 0;	
+}
+.OurTeam p {
+ padding: 0px 7px;
+ margin-left: 41px;
+}
+.OurTask p {
+padding: 0;
+margin-left: 42px;	
+}
+.OurPartners p {
+padding: 0 7px;
+margin-left: 35px;		
+}
+.OurTeam span,.OurTask span ,.OurPartners span {
+font-size: 28px;
+}
+.OurTeam span {
+padding: 0 55px;	
+}
+.OurTask span {
+padding: 0 45px;
+}
+.OurPartners span {
+padding: 0 43px;	
+}
+.buttonInterestingText {
+margin: 0 120px;	
+}
+	
+	/*how*/
+.bigMaks {
+    display: none;
+}
+.interestingText h1 {
+    font-size: 26px;
+}	
+.interestingText p {
+    font-size: 15px;
+}
+.buttonInterestingText {
+    float: none;
+}
+	/*bxslider*/
+.howTop .bx-wrapper {
+	text-align: center;
+   width: 100%!important;
+	float: none;
+}
+.howTop .bx-wrapper .bx-pager {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+	/*end*/  
+
+    /*howSite*/
+.howCiteTop {
+    padding-left: 0;
+}
+.bigOurTeam {
+display: none;
+}
+.borderLineSliderCite {
+width: auto;
+	left: 0;
+}
+.citeOurTeamOne {
+ padding-left: 0;
+}
+.interestingCite {
+top: 65px;
+left: 0;
+text-align: center;
+}
+.blockqouteCite p {
+margin: 0 auto;
+padding: 0 66px 10px 0px;
+
+}
+.blockqouteCite i {
+margin: 0;
+}
+.podpisAuthor {
+text-align: center;
+top: 353px;
+position: absolute;
+left: 0;
+}
+.podpisAuthor p {
+font-size: 21px;
+padding-right: 67px;
+}
+
+	/*footerTop*/
+.footerMenu {
+height: auto;
+padding: 0;
+padding-top: 30px;
+	
+}
+.litleMenuTop li {
+text-align: center;
+padding: 0;
+}
+.litleMenuTop li a {
+font-size: 15px;
+} 
+.litleMenuTop li:first-child > a:first-child {
+font-size: 26px;
+}
+.col-xxs-4 {
+float: left;
+width: 33.3333333%;
+}
+	/*footerBottom*/
+.footerCopy h1 {
+font-size: 28px;
+}
+}
+
+.
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 450px) {
+.textTop p {
+padding: 0 60px;
+	}
+.laboratoria h1 {
+font-size: 32px;
+}	
+.laboratoria span {
+		font-size: 46px;
+   }
+}
+@media screen and (max-width: 425px) {
+	.textTop p {
+  padding: 0 25px;
+	}
+.laboratoria h1 {
+font-size: 26px;
+}	
+.laboratoria span {
+font-size: 40px;
+   }
+.krygItLeft , .krygItCenter , .krygItRight {
+left: 42.5%;
+}
+.btnHovLeft , .btnHovCenter , .btnHovRight {
+left: 36.5%;
+}
+.buttonInterestingText {
+margin: 0 55px;	
+	}
+
+}
+/*
+
+*/
+@media screen and (max-width: 342px) {
+	.textTop p {
+  padding: 0;
+	}
+.laboratoria h1 {
+font-size: 22px;
+}	
+.laboratoria span {
+		font-size: 36px;
+   }
+.btnHovLeft , .btnHovCenter , .btnHovRight {
+left: 31.5%;
+}
+
+}
+/*@media screen and (max-width: 375px) {
+	
+*/
+/* Custom, iPhone Retina */
+/*
+@media screen and (max-width : 320px) {
+
+}
+*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+/*
+@media  screen and (min-width : 320px) {
+
+}
+*/
+
+/* Extra Small Devices, Phones */
+/*
+@media  screen and (min-width : 450px) {
+
+}
+*/
+
+/* Small Devices, Tablets */
+/*
+@media  screen and (min-width : 767px) {
+
+}
+*/
+
+/* Medium Devices, Desktops */
+/*
+@media screen and (min-width : 992px) {
+
+}
+	@media screen and (min-width : 993px) {
+
+	
+}
+@media  screen and (min-width : 1191px) {
+
+
+}
+*/
+ /* Large Devices, Wide Screens */
+/*
+@media  screen and (min-width : 1199px) {
+
+
+*/
+}

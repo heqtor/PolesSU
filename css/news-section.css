@@ -39,15 +39,9 @@ time, mark, audio, video {
     font-family: SFUIDisplayHeavy; /* Гарнитура шрифта */
     src: url(../fonts/SFUIDisplay-Heavy.otf); /* Путь к файлу со шрифтом */
 }
-.clearfix:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
 
-.container, .row{
+/* шапка и главные пункты меню */
+#newsSect .container, #newsSect .row{
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -275,7 +269,7 @@ time, mark, audio, video {
 		font-size: 125%;
 	}
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 992px){
 	#leftBlockNews{
 		display: table;
 		height: 0;	
@@ -344,7 +338,7 @@ time, mark, audio, video {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 	#rightBlockNews .allContent{
 		display: table;
 		margin: 0 auto;
@@ -369,7 +363,7 @@ time, mark, audio, video {
 	#rightBlockNews .button{
 		text-align: center;
 	}
-	.col-sm-6:first-child{
+	#rightBlockNews .col-sm-6:first-child{
 		margin-bottom: 4% !important;
 	}
 	.bx-wrapper .bx-prev {

@@ -39,18 +39,7 @@ time, mark, audio, video {
     font-family: SFUIDisplayHeavy; /* Гарнитура шрифта */
     src: url(../fonts/SFUIDisplay-Heavy.otf); /* Путь к файлу со шрифтом */
 }
-.clearfix:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-.container, .row{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-}
+
 
 /*СЛАЙДЕР НАШИХ ПРОЕКТОВ ГЛАВНЫЙ*/
 .sliderForProject{
@@ -90,7 +79,7 @@ time, mark, audio, video {
 .bxsliderProjectClass .bxsliderProject li img{
 	margin: 0 auto;
 }
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 	.bxsliderProjectClass{
 		margin-top: 15%;
 	}

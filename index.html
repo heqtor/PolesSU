@@ -4,71 +4,175 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.css" rel="stylesheet"  type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
-	<link href="css/style-main.css" rel="stylesheet" type="text/css">
+	<link href="css/style-main.css" rel="stylesheet">
 	<link href="css/MyStylebxslider.css" rel="stylesheet">
 	<link href="css/news-section.css" rel="stylesheet">
 	<link href="css/ourProgect.css" rel="stylesheet">
+	<link href="css/consistLab.css" rel="stylesheet">
+	<link href="css/activeUser.css" rel="stylesheet">
+
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/mainKl.css" rel="stylesheet">
+	<link href="css/mediaKl.css" rel="stylesheet">
 </head>
 <body>
-	<section>
-		<header id="main-container">
-			<div class="navbar navbar-default navbar-static-top">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div id="navHead" class="navbar-header">
-						<a class="navbar-brand" href="#"><img src="img/logo.png" height="40" width="40" alt="logo-page"></a>
-						<button id="menuToggle" class="btn btn-lg buttonItemMenu">Меню</button>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div id="mainMenu" class="clearfix">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#">О лaборатории</a></li>
-							<li><a href="#">Наши проекты</a></li>
-							<li><a href="#">Состав лаборатории</a></li>
-							<li class="lastItem"><a href="#">Форум</a></li>
-						</ul>
-						<div class="clearfix">
-							<div class="buttonItem clearfix">
-								<div class="search">
-									<div class="mobileAdept clearfix">
-										<div class="iconNav">
-											<span></span>
-										</div>
-										<p>Поиск</p>
+<section> <!-- HEADER -->
+	<header id="main-container">
+		<div class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div id="navHead" class="navbar-header">
+					<a class="navbar-brand" href="#"><img src="img/logo.png" height="40" width="40" alt="logo-page"></a>
+					<button id="menuToggle" class="btn btn-lg buttonItemMenu">Меню</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div id="mainMenu" class="clearfix">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О лaборатории</a></li>
+						<li><a href="#">Наши проекты</a></li>
+						<li><a href="#">Состав лаборатории</a></li>
+						<li class="lastItem"><a href="#">Форум</a></li>
+					</ul>
+					<div class="clearfix">
+						<div class="buttonItem clearfix">
+							<div class="search">
+								<div class="mobileAdept clearfix">
+									<div class="iconNav">
+										<span></span>
 									</div>
-								</div>
-								<div class="login">
-									<div class="mobileAdept clearfix">
-										<div class="iconNav">
-											<span></span>
-										</div>
-										<p>Вход</p>
-									</div>
+									<p>Поиск</p>
 								</div>
 							</div>
-						</div>	
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
+							<div class="login">
+								<div class="mobileAdept clearfix">
+									<div class="iconNav">
+										<span></span>
+									</div>
+									<p>Вход</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</div>
+		<div id="imageHeader">
+			<div id="mainImageId">
+				<!-- <ul id="scene">
+					<li class="layer" data-depth="0.4"><img class="imgParalax" src="img/paralax.png"></li>
+				</ul> -->
+				<img class="mainImage" src="img/header-main.jpg" alt="main-image-PolesSU">
 			</div>
-			<div id="imageHeader">
-				<div id="mainImageId">
-					<ul id="scene">
-						<li class="layer" data-depth="0.4"><img class="imgParalax" src="img/paralax.png"></li>
-					</ul>
-					<img class="mainImage" src="img/header-main.jpg" alt="main-image-PolesSU">
-				</div>
-				<div class="nameInHeader">
-					<h1 id="text">П<span>олес</span>ГУ</h1>
-					<p>Лаборатория</p>
-				</div>
-				<a href="#newsSect"><span class="downImage"></span></a>
+			<div class="nameInHeader">
+				<h1 id="text">П<span>олес</span>ГУ</h1>
+				<p>Лаборатория</p>
 			</div>
-		</header>	
-	</section>
-	<section>
+			<a href="#newsSect"><span class="downImage"></span></a>
+		</div>
+	</header>	
+</section>
+<section> <!-- WELLCOME -->
+	<div id="spesial">
+	<div class="container">
+				<div class="laboratoria col-md-12 col-sm-12 col-xs-12">
+					<h1>Добро пожаловать в нашу 
+						<span>лабораторию</span></h1>
+				</div>
+	          <div class="textTop col-md-12 col-sm-12 col-xs-12">
+				<div class="col-md-4 col-sm-4 col-xs-12  positionTxt ">
+					<p>Lorem ipsum dolor sit 
+					amet, consectetur 
+					adipisicing elit, sed do
+				    eiusmod tempor incididunt
+				    ut labore et dolore magna
+				    aliqua. Ut enim ad minim
+				    veniam, quis nostrud
+				    exercitation ullamco
+				    laboris nisi ut aliquip ex ea
+				    commodo consequat. Duis</p>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12   positionTxt">
+					<p>Lorem ipsum dolor sit 
+					amet, consectetur 
+					adipisicing elit, sed do
+				    eiusmod tempor incididunt
+				    ut labore et dolore magna
+				    aliqua. Ut enim ad minim
+				    veniam, quis nostrud
+				    exercitation ullamco
+				    laboris nisi ut aliquip ex ea
+				    commodo consequat. Duis</p>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12   positionTxt">
+					<p>Lorem ipsum dolor sit 
+					amet, consectetur 
+					adipisicing elit, sed do
+				    eiusmod tempor incididunt
+				    ut labore et dolore magna
+				    aliqua. Ut enim ad minim
+				    veniam, quis nostrud
+				    exercitation ullamco
+				    laboris nisi ut aliquip ex ea
+				    commodo consequat. Duis</p>
+				</div>
+	         </div>
+	<div class="sliderTo col-md-12 col-sm-12 col-xs-12">
+	  <div class="slider"></div> 
+				<div class="kryg krygLeft"></div>
+				<div class="textUnder textUnderLeft">
+				<p>Инжиниринговые решения в области автоматизации производств</p>
+				</div>
+			        <div class="krygIt krygItLeft col-md-12 col-sm-12 col-xs-12"><span>ИТ</span></div>
+			        <div class="textKrygHover jqHoverLeft col-md-12 col-sm-12 col-xs-12">
+			        <div class="textHover txtHovLeft col-md-4 col-sm-6 col-xs-12 ">
+			        <p>
+			        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore
+			        magna aliqua. Ut enim ad minim veniam, quis nostrud
+			        exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+			        </p>
+			        <button class="buttonHover btnHovLeft col-md-2 col-sm-2 col-xs-12 " value="Подробнее"><a href="#">Подробнее</a></button>
+			          </div>
+		        </div>
+				<div class="kryg krygCenter"></div>
+				<div class="textUnder textUnderCenter"><p>Информационные технологии: разработка web-приложений</p>
+		    </div>
+			        <div class="krygIt krygItCenter col-xs-12"><span>ИТ</span></div>
+			         <div class="textKrygHover jqHoverCenter col-md-12 col-sm-12 col-xs-12">
+			        <div class="textHover txtHovCenter col-md-4 col-sm-6 col-xs-12">
+			        <p>
+			        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore
+			        magna aliqua. Ut enim ad minim veniam, quis nostrud
+			        exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			        </p>
+			        <button class="buttonHover btnHovCenter col-md-2 col-sm-2 col-xs-12" value="Подробнее"><a href="#">Подробнее</a></button>
+			        </div>
+			        </div>
+				    <div class="kryg krygRight"></div>
+				    <div class="textUnder textUnderRight">
+				      <p>Системы очистки сточных вод</p>
+				    </div>
+			        <div class="krygIt krygItRight col-xs-12"><span>ИТ</span></div>
+			        <div class="textKrygHover jqHoverRight col-md-12 col-sm-12 col-xs-12">
+			        <div class="textHover txtHovRight col-md-4 col-sm-6 col-xs-12">
+			        <p>
+			        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			        sed do eiusmod tempor incididunt ut labore et dolore
+			        magna aliqua. Ut enim ad minim veniam, quis nostrud
+			        exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+			        </p>
+			        <button class="buttonHover btnHovRight col-md-2 col-sm-2 col-xs-12" value="Подробнее"><a href="#">Подробнее</a></button>
+			         </div>
+			         </div> 
+	        </div>
+	     </div>
+	  </div>
+</section> 
+<section> <!-- NEWS -->
 		<div id="newsSect">
 			<div class="container">
 				<div class="row">
@@ -408,56 +512,392 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section>
-		<div class="sliderForProject"> 
-			<div class="nameGaleryProject">
-				Наши <br>проекты
-				<a href="">
-					<div class="nameSlideProgect">
-					</div>
-				</a>
-			</div>
-			<div class="contentSliderProject">
-				<div class="bgSlider">
-						<ul class="bxsliderProjectClass clearfix">
-						<li>
-							<ul class="bxsliderProject">
-								<li>
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-								<li>
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="bxsliderProject">
-								<li>
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-								<li>
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="bxsliderProject">
-								<li>
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-								<li>								
-									<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
-								</li>
-							</ul>
-						</li>
-					</ul>
+</section>
+<section> <!-- INFO -->
+	<div id="info">
+		<div class="container-fluid">
+			<div class="infoTop col-xs-12">	
+				<div class="OurTeam  col-sm-4 col-xs-5">
+				<i class="icTeam"></i>
+				<div class="xsText"><p>Наша команда</p></div>
+				<span>64</span>
 				</div>
-				
+				<div class="OurTask col-xs-4">
+				<i class="icTask"></i>
+				<div class="xsText"><p>Выполненные задания</p></div>
+				<span>13</span>
+				</div>
+				<div class="OurPartners  col-xs-3">
+				<i class="icPartners"></i>
+				<div class="xsText"><p>Наши партнёры</p></div>
+				<span>8</span>
+				</div>
 			</div>
 		</div>
-	</section>
-	
+	</div>
+</section>
+<section> <!-- PROJECT SLIDER -->
+	<div class="sliderForProject"> 
+		<div class="nameGaleryProject">
+			Наши <br>проекты
+			<a href="">
+				<div class="nameSlideProgect">
+				</div>
+			</a>
+		</div>
+		<div class="contentSliderProject">
+			<div class="bgSlider">
+					<ul class="bxsliderProjectClass clearfix">
+					<li>
+						<ul class="bxsliderProject">
+							<li>
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+							<li>
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="bxsliderProject">
+							<li>
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+							<li>
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="bxsliderProject">
+							<li>
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+							<li>								
+								<a href=""><img src="img/page1InSliderProgect.jpg" height="361" width="251" alt=""></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section> <!-- CONSIST LAB -->
+	<div id="consistLab">
+		<div class="nameSection">
+			<div class="nameBlock">
+				<img src="img/lineСonsist.jpg" height="3" alt="">
+				<span class="txtNameConsist">Состав лаборатории</span>
+			</div>
+		</div>
+		<div class="sliderConsistLab">
+			<ul class="bxConsistLab">
+				<li>
+					<div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo1 photoConsistLab">
+								<img src="img/photoConsistLab.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Maxim Grishan</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-designer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo2 photoConsistLab">
+								<img src="img/photoConsistLab.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Maxim Grishan</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-designer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo3 photoConsistLab">
+								<img src="img/photoConsistLab.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Maxim Grishan</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-designer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo4 photoConsistLab">
+								<img src="img/photoConsistLab.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Maxim Grishan</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-designer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo1 photoConsistLab">
+								<img src="img/myPhoto.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Alexandr Dulsky</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-developer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo2 photoConsistLab">
+								<img src="img/myPhoto.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Alexandr Dulsky</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-developer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo3 photoConsistLab">
+								<img src="img/myPhoto.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Alexandr Dulsky</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-developer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<div class="photo4 photoConsistLab">
+								<img src="img/myPhoto.jpg" alt="">
+								<div class="infoAboutUser">
+									<p class="nameUser">Alexandr Dulsky</p>
+									<span class="lineSeparator"></span>
+									<p class="spetialUser">Web-developer</p>
+									<a href=""><span class="mail"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="pointToogle col-sm-12">
+				<img class="lineСonsist" src="img/linePointsСonsist.jpg" height="5" alt="">
+				<span class="pointConsist locPoint1"></span>
+				<span class="pointConsist locPoint2"></span>
+				<span class="pointConsist locPoint3"></span>
+				<span class="pointConsist locPoint4"></span>
+			</div>
+		</div>
+	</div>
+</section>
+<section> <!-- ACTIVE USER -->
+	<div id="activeUser">
+		<div class="nameSection">
+			<div class="nameBlock">
+				<img src="img/lineSeparatorActiveUser.jpg" alt="">
+				<span class="txtNameActiveUser">Активные участники лаборатории</span>
+			</div>
+		</div>
+		<div class="sliderActiveUser">
+			<ul class="bxActiveUser">
+				<li>
+					<div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout1">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout2">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout3">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout4">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout1">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout2">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout3">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div id="infoAboutActiveUser" class="moveAbout4">
+								<div id="content" class="clearfix">
+									<div class="imgActiveUser">
+										<div class="containerPhoto">
+											<div class="photo"></div>
+										</div>
+									</div>
+									<div class="info">
+										<p class="nameUser">Alexandr Dulsky</p>
+										<p class="spestialUser">крутой чел</p>
+										<span class="separator"></span>
+										<p class="datePublished">10.10.2016</p>
+										<div class="containerlike clearfix">
+											<a href=""><span class="like"></span></a>
+											<span class="countLike">1233</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="pointToogle col-sm-12">
+				<span class="lineToogleActiveUser"></span>
+				<span class="pointActiveUser movePointAbout1"></span>
+				<span class="pointActiveUser movePointAbout2"></span>
+				<span class="pointActiveUser movePointAbout3"></span>
+				<span class="pointActiveUser movePointAbout4"></span>
+			</div>
+		</div>
+	</div>
+</section>
+
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="js/angular/angular.js"></script>
 	<!--Angular.js Route-->
@@ -467,10 +907,11 @@
 
 	<script  src="js/jquery-1.12.0.min.js"></script>
 	<script src="js/parallax.min.js" ></script>
-	<script  src="js/main-skript.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap/bootstrap.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
+	<script  src="js/main-skript.js"></script>
+	<script src="js/common.js"></script>
 	<script>
 		var scene = document.getElementById('scene');
 		var parallax = new Parallax(scene);
@@ -528,6 +969,17 @@
 			autoHover: true,
 			auto: true,
 			pause: 3000
+		});
+		$('.bxConsistLab').bxSlider({
+			mode: 'fade',
+			pager: false,
+			autoHover: true,
+			pause: 5000
+		});
+		$('.bxActiveUser').bxSlider({
+			pager: false,
+			autoHover: true,
+			pause: 5000
 		});
 	</script>
 </body>

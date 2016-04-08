@@ -82,7 +82,7 @@
 		height: 100%;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 	.photoGallery .bx-wrapper .bx-prev {
 	    left: 67%;
 	}
@@ -164,7 +164,7 @@
 	text-indent: -9999px;
 	z-index: 9999;
 }
-	/*сТИЛИ ДЛЯ ПЕЙДЖЕРОВ*/
+	/*СТИЛИ ДЛЯ ПЕЙДЖЕРОВ*/
 .bxsliderProjectClass .bx-wrapper .bx-pager.bx-default-pager a {
 	text-indent: -9999px;
 	display: block; 
@@ -192,7 +192,7 @@
     margin-left: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 	.sliderForProject .bx-wrapper .bx-prev {
 	    left: 25%;
 	}
@@ -258,6 +258,65 @@
 	    right: 10%;
 	}
 	.bxsliderProjectClass .bx-controls-direction{
+		display: none;
+	}
+}
+
+/*ИЗМЕНЕНИЯ СВОЙСТВ СЛАЙДЕРА ПОД СЛАЙДЕР СОСТАВ КОМАНДЫ*/
+	/* КНОПКА ОБНОВЛЕНИЯ СЛАЙДЕРА */
+.sliderConsistLab .bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/circlePointSliderConsist.png) no-repeat 0 0;
+	background-size: cover;
+}
+.sliderConsistLab .bx-wrapper .bx-next:hover {
+	background-position: 0 0;
+	opacity: 1;
+}
+.sliderConsistLab .bx-wrapper .bx-controls-direction a {
+    top: 106%;
+    margin-top: 1px;
+}
+.sliderConsistLab .bx-wrapper .bx-next{
+	right: 14px;
+}
+.sliderConsistLab .bx-wrapper .bx-prev{
+	display: none;
+}
+@media only screen and (max-width: 767px){
+	.sliderConsistLab .bx-wrapper .bx-next{
+		display: none;
+	}
+}
+/*ИЗМЕНЕНИЯ СВОЙСТВ СЛАЙДЕРА ПОД СЛАЙДЕР АКТИВНЫХ УЧАСТНИКОВ*/
+	/* КНОПКА ОБНОВЛЕНИЯ СЛАЙДЕРА */
+.sliderActiveUser .bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/updatePointSliderActive.png) no-repeat 0 0;
+	background-size: cover;
+}
+.sliderActiveUser .bx-wrapper .bx-next:hover {
+	background-position: 0 0;
+	opacity: 1;
+}
+.sliderActiveUser .bx-wrapper .bx-controls-direction a {
+    top: 106%;
+    margin-top: 1px;
+}
+.sliderActiveUser .bx-wrapper .bx-next{
+	right: 14px;
+}
+.sliderActiveUser .bx-wrapper .bx-prev{
+	display: none;
+}
+@media only screen and (min-width: 1200px){
+	.sliderActiveUser .bx-wrapper .bx-controls-direction a {
+	    top: 112%;
+	    margin-top: 1px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.sliderActiveUser .bx-wrapper .bx-next{
 		display: none;
 	}
 }
